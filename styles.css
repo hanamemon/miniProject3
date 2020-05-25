@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.animals {
+  padding: 15px;
+  border-style: solid;
+  border-radius: 5px;
+  margin: 15px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#sub{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.form {
+  text-align: center;
+  display: inline-block;
+  display: flex;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+label {
+  display: inline-block;
+}
+
+h2, h3, h1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+}
